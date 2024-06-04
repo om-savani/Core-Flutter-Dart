@@ -33,6 +33,7 @@ void main()
     switch(choice)
     {
       case 1:
+        sum = 0;
         for(int i=0; i < r; i++)
         {
           for(int j=0; j < r; j++)
@@ -43,6 +44,7 @@ void main()
         print("sum: $sum\n");
         break;
       case 2:
+        sum = 0;
         stdout.write("Enter Row: ");      
         int row = int.parse(stdin.readLineSync() ?? "0");     
           for(int j=0; j < r; j++)
@@ -52,6 +54,7 @@ void main()
         print("sum: $sum\n");
         break;
       case 3:
+        sum = 0;
         stdout.write("Enter Row: ");      
         int col = int.parse(stdin.readLineSync() ?? "0");     
           for(int i=0; i < r; i++)
@@ -61,6 +64,7 @@ void main()
         print("sum: $sum\n");
         break;
       case 4:
+        sum = 0;
          for(int i=0; i < r; i++)
         {
           for(int j=0; j < r; j++)
@@ -74,6 +78,7 @@ void main()
         print("sum Of Diagonal Element: $sum\n");
         break;
       case 5:
+        sum = 0;
         for(int i=0; i < r; i++)
         {
           for(int j=0; j < r; j++)
